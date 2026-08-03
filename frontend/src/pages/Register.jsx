@@ -11,7 +11,7 @@ function Register() {
 
     try {
       const response = await axios.post(
-        "http://3.106.218.74:5000/api/auth/register",
+        "http://192.168.89.75:5000/api/auth/register",
         {
           name,
           email,
